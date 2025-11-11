@@ -1,0 +1,6 @@
+[Solution Configuration]
+Config=Debug
+Platform=Any CPU
+
+[Project Configuration]
+LibraryWinForms=Debug|Any CPU|LibraryWinForms
