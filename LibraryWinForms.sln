@@ -1,6 +1,5 @@
 [Solution Configuration]
-Config=Debug
-Platform=Any CPU
+Configuration=Release
 
 [Project Configuration]
-LibraryWinForms=Debug|Any CPU|LibraryWinForms
+LibraryWinForms=Release|Any CPU
