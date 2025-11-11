@@ -1,8 +1,39 @@
 <Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net6.0-windows</TargetFramework>
-    <UseWPF>false</UseWPF>
+    <TargetFramework>net472</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>LibraryWinForms</RootNamespace>
+    <AssemblyName>LibraryWinForms</AssemblyName>
   </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Program + Forms -->
+    <Compile Include="Program.cs" />
+    <Compile Include="MainForm.cs" />
+    <Compile Include="MainForm.Designer.cs" />
+
+    <!-- Models -->
+    <Compile Include="Models\Book.cs" />
+    <Compile Include="Models\BorrowingRecord.cs" />
+
+    <!-- Controls (partial + designer) -->
+    <Compile Include="Controls\LoginControl.cs" />
+    <Compile Include="Controls\LoginControl.Designer.cs" />
+    <Compile Include="Controls\NavigationControl.cs" />
+    <Compile Include="Controls\NavigationControl.Designer.cs" />
+    <Compile Include="Controls\DashboardControl.cs" />
+    <Compile Include="Controls\DashboardControl.Designer.cs" />
+    <Compile Include="Controls\BookInventoryControl.cs" />
+    <Compile Include="Controls\BookInventoryControl.Designer.cs" />
+    <Compile Include="Controls\BookEditorForm.cs" />
+    <Compile Include="Controls\BookEditorForm.Designer.cs" />
+    <Compile Include="Controls\BorrowReturnControl.cs" />
+    <Compile Include="Controls\BorrowReturnControl.Designer.cs" />
+    <Compile Include="Controls\ReportsControl.cs" />
+    <Compile Include="Controls\ReportsControl.Designer.cs" />
+
+    <!-- Properties -->
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
 </Project>
